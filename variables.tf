@@ -18,3 +18,7 @@ variable "tenant_name" {
   description = "Name of the Tenant"
   type = string
 }
+variable "api_key" {
+  description = "Enter the api_key of the email service"
+  type = string
+}
